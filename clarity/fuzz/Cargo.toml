@@ -44,3 +44,15 @@ path = "fuzz_targets/execute_v2_raw.rs"
 test = false
 doc = false
 bench = false
+
+[[bin]]
+name = "fuzz_stack_depth"
+path = "fuzz_targets/fuzz_stack_depth.rs"
+test = false
+doc = false
+
+[[bin]]
+name = "fuzz_stack_depth_cross_contract"
+path = "fuzz_targets/fuzz_stack_depth_cross_contract.rs"
+test = false
+doc = false
